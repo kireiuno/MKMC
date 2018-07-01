@@ -17,9 +17,12 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="100dp"
+        android:autoText="false"
         android:text="한국어"
-        android:textSize="20sp"
 
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        app:chainUseRtl="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.14"

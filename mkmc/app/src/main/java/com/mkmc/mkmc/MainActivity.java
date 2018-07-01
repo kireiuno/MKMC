@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         public void openKorean2(){
-            Intent intent = new Intent(this, Korean2.class);
+            Intent intent = new Intent(this, Korean3.class);
             startActivity(intent);
         }
 
