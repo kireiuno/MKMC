@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000"
     tools:context=".Korean4">
 
     <ImageButton
@@ -24,4 +23,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.95"
         app:srcCompat="@drawable/cross" />
+
+    <TextView
+        android:id="@+id/sin"
+        android:layout_width="131dp"
+        android:layout_height="60dp"
+        android:text="죄"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="104dp" />
 </android.support.constraint.ConstraintLayout>

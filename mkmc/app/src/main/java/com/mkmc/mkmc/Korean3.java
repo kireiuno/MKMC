@@ -24,7 +24,7 @@ public class Korean3 extends AppCompatActivity {
         //font setup
         TextView n = findViewById(R.id.god);
         TextView m = findViewById(R.id.people);
-        Typeface textFont = Typeface.createFromAsset(getAssets(), "fonts/koreanFont.ttf");
+        Typeface textFont = Typeface.createFromAsset(getAssets(), "fonts/헤움파스타142.ttf");
 
         n.setTypeface(textFont);
         m.setTypeface(textFont);

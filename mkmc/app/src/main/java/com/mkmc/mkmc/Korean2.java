@@ -31,7 +31,7 @@ public class Korean2 extends AppCompatActivity {
 
         //sets font
         TextView textOne = findViewById(R.id.textOne);
-        Typeface textFont = Typeface.createFromAsset(getAssets(), "fonts/koreanFont.ttf");
+        Typeface textFont = Typeface.createFromAsset(getAssets(), "fonts/헤움파스타142.ttf");
         textOne.setTypeface(textFont);
     }
 
