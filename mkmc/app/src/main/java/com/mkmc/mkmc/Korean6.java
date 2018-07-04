@@ -1,10 +1,14 @@
 package com.mkmc.mkmc;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class Korean6 extends AppCompatActivity {
     private ImageButton a;
@@ -22,6 +26,14 @@ public class Korean6 extends AppCompatActivity {
                 openActivity();
             }
         });
+
+        TextView p = findViewById(R.id.last);
+        TextView q = findViewById(R.id.last2);
+
+        Typeface textFont = Typeface.createFromAsset(getAssets(), "fonts/pasta.ttf");
+        p.setTypeface(textFont);
+        q.setTypeface(textFont);
+
     }
 
 

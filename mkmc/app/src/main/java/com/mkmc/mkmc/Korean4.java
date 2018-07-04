@@ -24,14 +24,14 @@ public class Korean4 extends AppCompatActivity {
             }
         });
 
-        TextView j = findViewById(R.id.sin);
-        Typeface textfont = Typeface.createFromAsset(getAssets(), "fonts/헤움파스타142.ttf");
+        TextView j = findViewById(R.id.jesusCross);
+        Typeface textFont = Typeface.createFromAsset(getAssets(), "fonts/pasta.ttf");
 
-        j.setTypeface(textfont);
+        j.setTypeface(textFont);
     }
 
     public void openActivity(){
-        Intent intent = new Intent(this, Korean5.class);
+        Intent intent = new Intent(this, Korean6.class);
         startActivity(intent);
     }
 }
