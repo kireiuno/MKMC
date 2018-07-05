@@ -18,7 +18,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Korean2"
             android:screenOrientation="landscape" />
@@ -44,14 +43,18 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
         <activity
             android:name=".French2"
             android:screenOrientation="landscape" />
-
-        <activity android:name=".French3"
-            android:screenOrientation="landscape"/>
-        <activity android:name=".French4"
-            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".French3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".French4"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Korean1" />
+        <activity android:name=".Korean7"></activity>
     </application>
 
 </manifest>

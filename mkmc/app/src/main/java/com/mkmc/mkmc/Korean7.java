@@ -8,18 +8,16 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+public class Korean7 extends AppCompatActivity {
 
-public class Korean6 extends AppCompatActivity {
     private ImageButton a;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_korean6);
+        setContentView(R.layout.activity_korean7);
 
-
-        a = (ImageButton) findViewById(R.id.cross4);
+        a = (ImageButton) findViewById(R.id.k7button);
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,18 +25,14 @@ public class Korean6 extends AppCompatActivity {
             }
         });
 
-        TextView p = findViewById(R.id.last);
-        TextView q = findViewById(R.id.last2);
+        TextView textView = findViewById(R.id.ktext7);
 
         Typeface textFont = Typeface.createFromAsset(getAssets(), "fonts/pasta.ttf");
-        p.setTypeface(textFont);
-        q.setTypeface(textFont);
-
+        textView.setTypeface(textFont);
     }
 
-
     public void openActivity() {
-        Intent intent = new Intent(this, Korean7.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }
