@@ -6,17 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class French4 extends AppCompatActivity {
+public class English1 extends AppCompatActivity {
 
-    private ImageButton crossFrench4;
+    private ImageButton englishKoreanButton1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_french4);
+        setContentView(R.layout.activity_english1);
 
-        crossFrench4 = (ImageButton) findViewById(R.id.crossFrench4);
-        crossFrench4.setOnClickListener(new View.OnClickListener() {
+        englishKoreanButton1 = (ImageButton) findViewById(R.id.english1button);
+        englishKoreanButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivity();
@@ -25,7 +25,7 @@ public class French4 extends AppCompatActivity {
     }
 
     public void openActivity(){
-        Intent intent = new Intent(this, French5.class);
+        Intent intent = new Intent(this, English2.class );
         startActivity(intent);
     }
 }

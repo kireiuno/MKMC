@@ -72,14 +72,14 @@ public class MainActivity extends AppCompatActivity {
 
         //opens new activity for transition aka going from the language choices towards the actual function of the app
         public void openFrench2(){
-            Intent intent = new Intent(this, French2.class );
+            Intent intent = new Intent(this, French1.class );
             startActivity(intent);
         }
 
         //opens new activity for starting in english
 
         public void openEnglish2(){
-            Intent intent = new Intent(this, English2.class);
+            Intent intent = new Intent(this, English1.class);
             startActivity(intent);
         }
 

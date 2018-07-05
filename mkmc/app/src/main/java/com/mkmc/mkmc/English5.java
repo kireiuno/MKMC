@@ -1,34 +1,27 @@
 package com.mkmc.mkmc;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
-public class Korean7 extends AppCompatActivity {
+public class English5 extends AppCompatActivity {
 
-    private ImageButton korean7;
+    private ImageButton english5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_korean7);
+        setContentView(R.layout.activity_english5);
 
-        korean7 = (ImageButton) findViewById(R.id.k7button);
-        korean7.setOnClickListener(new View.OnClickListener() {
+        english5 = (ImageButton) findViewById(R.id.english5button);
+        english5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivity();
             }
         });
-
-        TextView textView = findViewById(R.id.ktext7);
-
-        Typeface textFont = Typeface.createFromAsset(getAssets(), "fonts/pasta.ttf");
-        textView.setTypeface(textFont);
     }
 
     public void openActivity() {

@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class Korean1 extends AppCompatActivity {
 
-    private ImageButton activityMover;
+    private ImageButton activityMoverKorean;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,14 +18,14 @@ public class Korean1 extends AppCompatActivity {
         setContentView(R.layout.activity_korean1);
 
 
-        TextView k1 = findViewById(R.id.god1);
-        TextView k1h = findViewById(R.id.human1);
-        Typeface textFont = Typeface.createFromAsset(getAssets(), "fonts/헤움파스타142.ttf");
-        k1.setTypeface(textFont);
-        k1h.setTypeface(textFont);
+        TextView koreangod1 = findViewById(R.id.godkorean1);
+        TextView koreanhuman1 = findViewById(R.id.humankorean1);
+        Typeface textFont = Typeface.createFromAsset(getAssets(), "fonts/pasta.ttf");
+        koreangod1.setTypeface(textFont);
+        koreanhuman1.setTypeface(textFont);
 
-        activityMover = (ImageButton) findViewById(R.id.k1button);
-        activityMover.setOnClickListener(new View.OnClickListener() {
+        activityMoverKorean = (ImageButton) findViewById(R.id.k1button);
+        activityMoverKorean.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivity();

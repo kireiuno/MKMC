@@ -23,7 +23,7 @@ public class Korean3 extends AppCompatActivity {
 
         //font setup
         TextView n = findViewById(R.id.god);
-        TextView m = findViewById(R.id.homme);
+        TextView m = findViewById(R.id.saram);
         TextView o = findViewById(R.id.sin);
         Typeface textFont = Typeface.createFromAsset(getAssets(), "fonts/pasta.ttf");
 

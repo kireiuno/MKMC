@@ -26,7 +26,7 @@ public class English4 extends AppCompatActivity {
     }
 
     public void openActivity() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, English5.class);
         startActivity(intent);
     }
 
