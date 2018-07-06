@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Korean3 extends AppCompatActivity {
@@ -44,6 +45,12 @@ public class Korean3 extends AppCompatActivity {
     public void openActivity(){
         Intent intent = new Intent(this, Korean4.class);
         startActivity(intent);
+    }
+
+
+    public void triggerSin(View view){
+        ImageView image = (ImageView) findViewById(R.id.devilKor);
+        image.setImageResource(R.drawable.sinkor);
     }
 
 }

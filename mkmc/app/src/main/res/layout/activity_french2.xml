@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/middle" />
+        app:srcCompat="@drawable/middlere" />
 
     <ImageButton
         android:id="@+id/crossFrench2"
@@ -90,26 +90,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/peche"
-        android:layout_width="129dp"
-        android:layout_height="59dp"
-        android:layout_marginBottom="24dp"
+    <Button
+        android:id="@+id/sinTrigger"
+        android:layout_width="138dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Péché"
-        android:textColor="@android:color/black"
-        android:textSize="35sp"
-        android:textStyle="bold"
-        app:fontFamily="@font/roboto_mono_medium"
+        android:background="@android:color/black"
+        android:onClick="triggerSin"
+        android:text="péché"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageEnglish2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <ImageView
+        android:id="@+id/devilFrench"
+        android:layout_width="366dp"
+        android:layout_height="194dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174"
+        app:srcCompat="@drawable/devil" />
 
 </android.support.constraint.ConstraintLayout>
